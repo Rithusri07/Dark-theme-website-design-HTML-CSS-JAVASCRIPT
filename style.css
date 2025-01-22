@@ -1,0 +1,30 @@
+:root{
+    --primary_color:#ffffff;
+    --secondary_color:#050505;
+}
+.dark-theme{
+    --primary_color:#050505;
+    --secondary_color:#ffffff;
+}
+body{
+    background-color: var(--primary_color);
+}
+li{
+    color:var(--secondary_color);
+    display: block;
+    float:right;
+   margin-right: 15px;
+}
+ul{
+    list-style: none;
+}
+h1{
+    color:var(--secondary_color);
+    text-align: center;
+    padding:200px;
+}
+img{
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+}
